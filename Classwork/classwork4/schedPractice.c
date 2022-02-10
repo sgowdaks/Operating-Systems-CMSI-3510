@@ -52,7 +52,7 @@ int main(int argc, char *argv[]) {
     threads[i].threadLetter = *argv[k];
     threads[i].secondsToRun = atoi((argv[k+1]));
     k = k + 2;
-    pthread_create(pthread_add[i], NULL, child, &threads[i]);
+    pthread_create(pthread_add[i], NULL, child,(void *) &threads[i]);
   }
     return 0;
 }
