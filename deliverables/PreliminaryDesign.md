@@ -16,4 +16,4 @@ No commands will be modified.
 
 ## 1.4 – Preliminary list of any new modules that you will produce [or 'Not Applicable' if there are none]:
 
-freep module will be created
+freep module
