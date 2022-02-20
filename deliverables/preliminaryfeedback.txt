@@ -1,0 +1,28 @@
+
+CMSI 3510 Project Spring 2022
+Preliminary Design Document
+Evaluation and Feedback
+======================================================
+
+"freeport" ~ identify an available network port
+
+This is a very useful idea!  Usually the use of "netstat" displays a HUGE
+list of port information which must be sorted through to find the simple
+information of an available port number.  The other alternative is to try
+to guess at one that might be free and have to handle situations in which
+the guess is incorrect.
+
+I love the idea!  This is a very worthy project and well-described in your
+preliminary document.  Be sure to research carefully about how to find and
+present the information ~ if this is a kernel command, you won't be able
+to use 'printf()' but instead must use 'kprintf()' for example.
+
+
+Full credit earned.
+
+Semester so far:
+   homework01 100.00% * 10 points = 10.00 points
+   delivery01 100.00% * 10 points = 10.00 points
+                        total:   20.00 out of 20 = 100.00% = A-plus
+
+Keep up the good work!
