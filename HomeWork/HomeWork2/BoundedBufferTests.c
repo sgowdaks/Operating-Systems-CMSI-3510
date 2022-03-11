@@ -7,7 +7,7 @@ public class BoundedBufferTests {
           public void run() {
             try {
               test.insert(5);
-              System.out.println("Produce");
+              System.out.println("Producer");
             } catch (InterruptedException e) {
               System.out.println("WAIT");
             }
@@ -17,7 +17,7 @@ public class BoundedBufferTests {
         class Consumer extends Thread {
           public void run() {
             try {
-              System.out.print("Consume");
+              System.out.print("Consumer");
               System.out.println(test.retrieve());
             } catch (InterruptedException e) {
               System.out.println("WAIT");
