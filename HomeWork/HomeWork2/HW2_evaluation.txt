@@ -1,0 +1,101 @@
+
+
+CMSI 3510 Operating Systems
+Spring Semester 2022
+Results for Homework #2 Evaluation
+==================================
+
+Question 1 mutex reversing:          5/ 5 points
+   Perfect!
+
+Question 2 auditing code change:     5/ 5 points
+   Perfect!
+
+Question 3 test program:            19/20 points
+   Nice work, runs as required, but pay attention to your coding style so as
+      to make it look professional.  Be consistent with your indenting and
+      try to conform to established coding standards for the language you
+      are using.
+
+Question 4 notifyall() addition:     9/10 points
+   Same comment as for question 3.
+
+Question 5a 2-phase locking:         4/ 5 points
+   No, it's not possible.  With two-phase locking, one transaction runs at
+      a time, so T1 will run, change both values, then T2 will run and read
+      the new values.
+
+Question 5b short read locks:        4/ 5 points
+   No, it's not possible.  With read committed isolation, the writes will
+      have exclusive locks, so T1 will have exclusive write access for the
+      duration of the transaction.  Since write locks are exclusive, in this
+      case it's the same outcome as with two-phase locking.
+
+Question 5c snapshot isolation:      4/ 5 points
+   Actually, yes, it's possible.  With snapshot isolation, the values are
+      written to DIFFERENT locations than the original storage, and then
+      later written to the original location.  If T2 reads x before that
+      update write is done, and reads y AFTER that update write is done, it
+      would have two inconsistent values, the new value for x and the old
+      value for y.
+
+Question 6 virtual address xlate:    5/ 5 points
+   Right numbers, but wrong assignments ~ you've swapped the physical and
+      the virtual.  Still, you got the idea.
+
+Question 7 calc. explanation:        5/ 5 points
+   Perfect!
+
+Question 8 loop 4096 analysis:      20/20 points
+   EXCELLENT write-up and analysis!  I like the table you did.
+
+Question 9 fork() tree:             15/15 points
+   You have the right idea here so full credit.  If you actually use the
+      'ps -eaf | grep <program>' command you can see something like what is
+      in the following table, which shows how the different parent and child
+      processes can be tracked using PID and PPID values:
+
+   1684989130  7789  7739   0  5:04PM ttys000    0:00.00 multiforkerMac
+   1684989130  7790  7789   0  5:04PM ttys000    0:00.00 multiforkerMac
+   1684989130  7791  7789   0  5:04PM ttys000    0:00.00 multiforkerMac
+   1684989130  7792  7789   0  5:04PM ttys000    0:00.00 multiforkerMac
+   1684989130  7793  7790   0  5:04PM ttys000    0:00.00 multiforkerMac
+   1684989130  7794  7791   0  5:04PM ttys000    0:00.00 multiforkerMac
+   1684989130  7795  7790   0  5:04PM ttys000    0:00.00 multiforkerMac
+   1684989130  7796  7793   0  5:04PM ttys000    0:00.00 multiforkerMac
+   1684989130  7798  7761   0  5:04PM ttys001    0:00.00 grep multi
+
+
+   The tree would look like this:
+
+                        7739
+                          |
+                 +------7789-------+
+                 |        |        |
+                 |        |        |
+         +-----7790     7791     7792
+         |       |        |
+         |       |        |
+       7793    7795     7794
+         |
+         |
+       7796
+
+
+Total 95 out of 100 = 95.00% which is a solid A.
+
+Comments:
+---------
+Nice work!
+
+
+===========================
+Current course evaluations:
+===========================
+
+    Homework01:  12/ 12 = 100.00% which is 10.00 points
+    Homework02:  95/100 =  95.00% which is  9.50 points
+Prelim. Design:  25/ 25 = 100.00% which is 10.00 points
+                                           -----
+                                   Total:  29.50 out of 30.00 = 98.33%
+                                             which is an A-plus
