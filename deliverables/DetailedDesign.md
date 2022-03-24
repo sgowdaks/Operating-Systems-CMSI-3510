@@ -14,7 +14,8 @@ New system call named freeport
 
 We will be modifying in the kernal layer.
 
-![diagram](./image.png)
+<!-- ![diagram](./image.png) -->
+<img src="./image.png" alt="drawing" width="300" hright="300"/>
 
 
 ## 2.4 – List or table of explanations of all command line options that will be implemented
