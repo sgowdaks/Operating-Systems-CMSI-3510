@@ -12,7 +12,7 @@ New system call named freeport. When freeport is called it will let the user kno
 
 ## 2.3 – Class diagram showing affected modules [and any new modules] and how they related to one another
 
-We will be modifying in the kernal layer.
+We will be modifying in the kernel layer.
 
 <!-- ![diagram](./image.png) -->
 <img src="./image.png" alt="drawing" width="300" hright="300"/>
