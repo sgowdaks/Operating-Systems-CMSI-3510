@@ -8,7 +8,7 @@ NA
 
 ## 2.2 – Detailed list of any new modules that you will produce [or 'Not Applicable' if there are none]
 
-New system call named freeport
+New system call named freeport. When freeport is called it will let the user know of a specific port that is available.
 
 ## 2.3 – Class diagram showing affected modules [and any new modules] and how they related to one another
 
