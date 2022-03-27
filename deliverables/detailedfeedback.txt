@@ -1,0 +1,29 @@
+
+CMSI 3510 Project Spring 2022
+Detailed Design Document
+Evaluation and Feedback
+======================================================
+
+'freeport' ~ kernel command to inform user of specific free network port
+
+Nice work on this submission.
+
+One thing to consider is, section 2.3 calls for a "Class diagram", but any
+kind of diagram that shows how your project relates or is associated with
+the kernel will work.  The 'diagram' you have doesn't show where your
+project is located in the overall design of the O/S, nor does it show the
+associations between your project and the kernel.  Is this going to be a
+new kernel-level call that accesses a new common utility?  Or is it a new
+kernel-level call that will access an existing common utility?  This needs
+to be shown.
+
+Nearly full credit earned, and this is gonna be very useful, I think!
+
+Semester so far:
+   homework01 100.00% * 10 points = 10.00 points
+   homework02  95.00% * 10 points =  9.50 points
+   delivery01 100.00% * 10 points = 10.00 points
+   delivery02  95.00% * 10 points =  9.50 points
+                        total:   39.00 out of 40 = 97.50% = A-plus
+
+Keep up the good work!
