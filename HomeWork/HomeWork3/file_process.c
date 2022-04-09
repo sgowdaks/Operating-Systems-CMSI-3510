@@ -4,7 +4,6 @@
 #include <sys/wait.h>
 #include <sys/stat.h>
 
-using namespace std;
 int main(){
   pid_t returnedValue = fork();
   int filedes;
