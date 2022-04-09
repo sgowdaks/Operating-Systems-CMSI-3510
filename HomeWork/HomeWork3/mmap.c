@@ -41,7 +41,7 @@ int main(int argc, char* argv[])
           return 0;
       }
   }
-  printf("X not found!");
+  printf("X not found!\n");
   stime = clock() - stime;
   double timeTaken = ((double)stime) / CLOCKS_PER_SEC;
   printf("Execution Time: %f\n", timeTaken);
