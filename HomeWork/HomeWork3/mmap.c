@@ -42,8 +42,8 @@ int main(int argc, char* argv[])
       }
   }
   printf("X not found!");
-	stime = clock() - stime;
-	double timeTaken = ((double)stime) / CLOCKS_PER_SEC;
-	printf("Execution Time: %f\n", timeTaken);
-	return 0;
+  stime = clock() - stime;
+  double timeTaken = ((double)stime) / CLOCKS_PER_SEC;
+  printf("Execution Time: %f\n", timeTaken);
+  return 0;
 }
