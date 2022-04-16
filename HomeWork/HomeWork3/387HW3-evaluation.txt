@@ -1,0 +1,35 @@
+
+Evaluation for Homework 3
+CMSI 387 - Operating Systems
+============================
+
+Question 1: dining philosophers program:   20.00 out of 20 possible
+Question 2: why immune explanation     :   10.00 out of 10 possible
+Question 3: file processing "C" program:   20.00 out of 20 possible
+Question 4: mmap program "C" program   :   20.00 out of 20 possible
+Question 5: appropriate class explained:   10.00 out of 10 possible
+
+Total possible points:     80.00 points
+           your score:     80.00 points
+                total:     80.00/80.00 = 100.00% which is an A-plus
+
+Comments:
+---------
+
+Nice work!  Good work on the dining philosophers program ~ You are the only
+team that didn't put a limit on the running time, which is as it should be.
+
+
+
+==============
+SEMESTER SO FAR, COMING UP TO FINAL EXAM:
+
+    Homework01:  12/ 12  = 100.00% which is 10.00 points
+    Homework02:  95/100  =  95.00% which is  9.50 points
+Prelim. Design:  25/ 25  = 100.00% which is 10.00 points
+Detail  Design: 23.75/25 =  95.00% which is  9.50 points
+    Homework03:  80/ 80  = 100.00% which is 10.00 points
+        total:                             49.00 out of 50.00
+                        which is 98.00% which is an A-plus
+
+Very good work ~ ROCK STARS!!
